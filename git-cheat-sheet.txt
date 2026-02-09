@@ -1,0 +1,5 @@
+git show: see changes in a specific commit
+git log: view the commit history 
+git checkout: switch branches or restore files
+git init: create new Git repo
+git reset: Undo changes or move current branch ehad 

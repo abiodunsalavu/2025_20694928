@@ -1,0 +1,3 @@
+C:/Program Files (x86)/Project/bin/calc.exe
+C:/Program Files (x86)/Project/lib/maths.lib
+C:/Program Files (x86)/Project/bin/maths.dll

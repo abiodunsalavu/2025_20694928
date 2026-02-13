@@ -21,7 +21,7 @@ jobs:
         run: doxygen Doxyfile
 
       - name: Deploy
-        uses: abiodunsalavu/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: Worksheet5/html

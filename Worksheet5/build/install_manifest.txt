@@ -1,3 +1,3 @@
-C:/Program Files (x86)/Project/bin/calc.exe
-C:/Program Files (x86)/Project/lib/maths.lib
-C:/Program Files (x86)/Project/bin/maths.dll
+C:/Users/asala/2025_20694928/Worksheet5/build/_CPack_Packages/win64/NSIS/calc-0.1.1-win64/bin/calc.exe
+C:/Users/asala/2025_20694928/Worksheet5/build/_CPack_Packages/win64/NSIS/calc-0.1.1-win64/lib/maths.lib
+C:/Users/asala/2025_20694928/Worksheet5/build/_CPack_Packages/win64/NSIS/calc-0.1.1-win64/bin/maths.dll

@@ -1,0 +1,11 @@
+*.exp
+*.obj
+*.pdb
+*.lib
+*.dll
+*.user
+.vs/
+x64/
+Debug/
+Release/
+html/

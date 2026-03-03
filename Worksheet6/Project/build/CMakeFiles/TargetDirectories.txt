@@ -1,0 +1,4 @@
+C:/Users/asala/2025_20694928/Worksheet6/Project/build/CMakeFiles/Project.dir
+C:/Users/asala/2025_20694928/Worksheet6/Project/build/CMakeFiles/INSTALL.dir
+C:/Users/asala/2025_20694928/Worksheet6/Project/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/asala/2025_20694928/Worksheet6/Project/build/CMakeFiles/ZERO_CHECK.dir

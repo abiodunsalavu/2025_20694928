@@ -26,6 +26,8 @@ signals:
 
 public slots:
     void handleButton();
+    void handleTreeClicked();
+
 
 private:
     Ui::MainWindow *ui;

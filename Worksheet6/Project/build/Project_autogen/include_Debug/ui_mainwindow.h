@@ -70,6 +70,11 @@ public:
 
         widget = new QWidget(layoutWidget);
         widget->setObjectName("widget");
+        QSizePolicy sizePolicy1(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Preferred);
+        sizePolicy1.setHorizontalStretch(0);
+        sizePolicy1.setVerticalStretch(0);
+        sizePolicy1.setHeightForWidth(widget->sizePolicy().hasHeightForWidth());
+        widget->setSizePolicy(sizePolicy1);
 
         horizontalLayout->addWidget(widget);
 

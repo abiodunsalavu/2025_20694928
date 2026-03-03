@@ -535,6 +535,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet6\Project\mainwindow.h" />
     <None Include="C:\Users\asala\2025_20694928\Worksheet6\Project\mainwindow.ui">
     </None>
+    <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet6\Project\ModelPart.cpp" />
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet6\Project\ModelPart.h" />
+    <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet6\Project\ModelPartList.cpp" />
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet6\Project\ModelPartList.h" />
     <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet6\Project\build\Project_autogen\include_Debug\ui_mainwindow.h" />
     <None Include="C:\Users\asala\2025_20694928\Worksheet6\Project\build\Project_autogen\autouic_Debug.stamp">
     </None>

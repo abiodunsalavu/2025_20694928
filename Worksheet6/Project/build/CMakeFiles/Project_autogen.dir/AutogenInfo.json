@@ -291,6 +291,18 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/asala/2025_20694928/Worksheet6/Project/ModelPart.h",
+			"MU",
+			"EWIEGA46WW/moc_ModelPart.cpp",
+			null
+		],
+		[
+			"C:/Users/asala/2025_20694928/Worksheet6/Project/ModelPartList.h",
+			"MU",
+			"EWIEGA46WW/moc_ModelPartList.cpp",
+			null
+		],
+		[
 			"C:/Users/asala/2025_20694928/Worksheet6/Project/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -441,6 +453,16 @@
 	"SETTINGS_FILE_Release" : "C:/Users/asala/2025_20694928/Worksheet6/Project/build/CMakeFiles/Project_autogen.dir/AutogenUsed_Release.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/asala/2025_20694928/Worksheet6/Project/ModelPart.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/asala/2025_20694928/Worksheet6/Project/ModelPartList.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/asala/2025_20694928/Worksheet6/Project/main.cpp",
 			"MU",

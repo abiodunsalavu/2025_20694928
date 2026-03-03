@@ -41,7 +41,7 @@ public:
     QSpacerItem *horizontalSpacer;
     QMenuBar *menubar;
     QMenu *menu1;
-    QStatusBar *statusbar;
+    QStatusBar *statusBar;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -102,9 +102,11 @@ public:
         menu1 = new QMenu(menubar);
         menu1->setObjectName("menu1");
         MainWindow->setMenuBar(menubar);
-        statusbar = new QStatusBar(MainWindow);
-        statusbar->setObjectName("statusbar");
-        MainWindow->setStatusBar(statusbar);
+        statusBar = new QStatusBar(MainWindow);
+        statusBar->setObjectName("statusBar");
+        sizePolicy.setHeightForWidth(statusBar->sizePolicy().hasHeightForWidth());
+        statusBar->setSizePolicy(sizePolicy);
+        MainWindow->setStatusBar(statusBar);
 
         menubar->addAction(menu1->menuAction());
 

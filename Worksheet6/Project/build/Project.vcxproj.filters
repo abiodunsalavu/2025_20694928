@@ -10,6 +10,12 @@
     <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet6\Project\mainwindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet6\Project\ModelPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet6\Project\ModelPartList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet6\Project\build\Project_autogen\mocs_compilation_Release.cpp">
       <Filter>Source Files\Generated</Filter>
     </ClCompile>
@@ -22,6 +28,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet6\Project\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet6\Project\ModelPart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet6\Project\ModelPartList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet6\Project\build\Project_autogen\include_Debug\ui_mainwindow.h">

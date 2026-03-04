@@ -35,12 +35,12 @@ set(__QT_DEPLOY_SYSTEM_NAME "Windows")
 set(__QT_DEPLOY_SHARED_LIBRARY_SUFFIX ".dll")
 set(__QT_DEPLOY_IS_SHARED_LIBS_BUILD "ON")
 set(__QT_DEPLOY_TOOL "C:/Qt/6.10.2/msvc2022_64/bin/windeployqt.exe")
-set(__QT_DEPLOY_IMPL_DIR "C:/Users/asala/2025_20694928/Worksheet6/Project/build/.qt")
+set(__QT_DEPLOY_IMPL_DIR "C:/Users/asala/2025_20694928/Worksheet6/Project/build2/.qt")
 set(__QT_DEPLOY_VERBOSE "")
 set(__QT_CMAKE_EXPORT_NAMESPACE "Qt6")
 set(__QT_LIBINFIX "")
 set(__QT_DEPLOY_GENERATOR_IS_MULTI_CONFIG "1")
-set(__QT_DEPLOY_ACTIVE_CONFIG "Debug")
+set(__QT_DEPLOY_ACTIVE_CONFIG "RelWithDebInfo")
 set(__QT_NO_CREATE_VERSIONLESS_FUNCTIONS "")
 set(__QT_DEFAULT_MAJOR_VERSION "6")
 set(__QT_DEPLOY_QT_ADDITIONAL_PACKAGES_PREFIX_PATH "")
@@ -60,7 +60,8 @@ set(__QT_DEPLOY_QT_DEBUG_POSTFIX "d")
 
 # Define the CMake commands to be made available during deployment.
 set(__qt_deploy_support_files
-    ""
+    "C:/Users/asala/2025_20694928/Worksheet6/Project/build2/.qt/QtDeployTargets-RelWithDebInfo.cmake"
+    "C:/Qt/6.10.2/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
 )
 foreach(__qt_deploy_support_file IN LISTS __qt_deploy_support_files)
     include("${__qt_deploy_support_file}")

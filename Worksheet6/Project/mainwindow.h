@@ -27,6 +27,9 @@ signals:
 public slots:
     void handleButton();
     void handleTreeClicked();
+    void handleButton2();
+    void on_actionOpen_triggered();
+
 
 
 private:

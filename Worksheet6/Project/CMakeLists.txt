@@ -3,6 +3,8 @@ project(Project LANGUAGES CXX)
 
 find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets)
 
+set(CMAKE_AUTORCC ON)
+
 qt_standard_project_setup()
 
 qt_add_executable(Project
@@ -15,6 +17,8 @@ qt_add_executable(Project
     ModelPart.h
     ModelPartList.cpp
     ModelPartList.h
+    icons.qrc
+
 )
 
 target_link_libraries(Project

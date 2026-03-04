@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/Icons"/>
+    <qresource prefix="/new/prefix1"/>
+    <qresource prefix="/">
+        <file>../../../Downloads/EEEE2076-master/EEEE2076-master/icons/fileopen.png</file>
+        <file>../../../Downloads/EEEE2076-master/EEEE2076-master/icons/filesave.png</file>
+        <file>../../../Downloads/EEEE2076-master/EEEE2076-master/icons/help.png</file>
+        <file>../../../Downloads/EEEE2076-master/EEEE2076-master/icons/print.png</file>
+        <file>../../../Downloads/EEEE2076-master/EEEE2076-master/icons/startVR.png</file>
+        <file>../../../Downloads/EEEE2076-master/EEEE2076-master/icons/stopVR.png</file>
+    </qresource>
+</RCC>

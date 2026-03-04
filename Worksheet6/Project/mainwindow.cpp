@@ -1,56 +1,104 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <QMessageBox>
+#include "optiondialog.h"
+#include <QDialog>
+#include <QFileDialog>
 
-MainWindow::MainWindow(QWidget *parent)
+MainWindow::MainWindow(QWidget* parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    connect(ui->pushButton, &QPushButton::released, this, &MainWindow::handleButton);
-    connect(this, &MainWindow::statusUpdateMessage, ui->statusBar, &QStatusBar::showMessage);
-   connect(ui->treeView, &QTreeView::clicked, this, &MainWindow::handleTreeClicked);
-    /* Create / allocate the ModelList */
-    this ->partList = new ModelPartList("PartsList");
-    /* Link it to the treeview in the GUI */
+
+    // Connect button signals to slots
+    connect(ui->pushButton, &QPushButton::released, this, &MainWindow::handleButton1);
+    connect(ui->pushButton_2, &QPushButton::released, this, &MainWindow::handleButton2);
+
+    // Connect statusUpdateMessage signal to statusbar
+    connect(this, &MainWindow::statusUpdateMessage,
+            ui->statusbar, &QStatusBar::showMessage);
+
+    // Connect treeView click signal to slot
+    connect(ui->treeView, &QTreeView::clicked, this, &MainWindow::handleTreeClicked);
+
+    // Create ModelPartList and link to treeView
+    this->partList = new ModelPartList("Parts List");
     ui->treeView->setModel(this->partList);
-    /* Manually create a model tree - there is a much better and more flexible ways of doing this,
-     with nested functions being a example, this is just a quick example for a starting point*/
-    ModelPart *rootItem = this->partList->getRootItem();
-    /* Add 3 top level items */
-    for (int i =0; i <3; i++) {
-        /* Create strings for both data columns */
+
+    // Get root item
+    ModelPart* rootItem = this->partList->getRootItem();
+
+    // Add 3 top level items each with 5 children
+    for (int i = 0; i < 3; i++) {
         QString name = QString("TopLevel %1").arg(i);
         QString visible("true");
-        /* Create Child Item */
-        ModelPart *childItem = new ModelPart({name, visible});
-        /*Append to tree top-level */
+
+        ModelPart* childItem = new ModelPart({ name, visible });
         rootItem->appendChild(childItem);
-        /* Add 5 sub-items */
-        for (int j =0; j < 5; j++){
+
+        for (int j = 0; j < 5; j++) {
             QString name = QString("Item %1,%2").arg(i).arg(j);
             QString visible("true");
-            ModelPart *childChildItem = new ModelPart({ name, visible});
-            /*Append to Parent*/
+
+            ModelPart* childChildItem = new ModelPart({ name, visible });
             childItem->appendChild(childChildItem);
         }
     }
 }
+
 MainWindow::~MainWindow()
 {
     delete ui;
 }
 
-void MainWindow::handleButton(){
-    emit statusUpdateMessage( QString("Add button was clicked"), 5000);
+void MainWindow::handleButton1()
+{
+    emit statusUpdateMessage(QString("Button 1 was clicked"), 0);
 }
-void MainWindow::handleTreeClicked(){
-    /*Get the index of the selected item*/
-    QModelIndex index = ui->treeView->currentIndex();
-    /* Get a pointer to the item from the index */
-    ModelPart  *selectedPart = static_cast<ModelPart*>(index.internalPointer());
-    /* Retrieving the name string from the internal data array */
-    QString text = selectedPart->data(0).toString();
-    emit statusUpdateMessage(QString("The selected item is: ")+text, 0);
 
+void MainWindow::handleButton2()
+{
+    OptionDialog dialog(this);
+
+    if (dialog.exec() == QDialog::Accepted)
+        emit statusUpdateMessage(QString("Dialog accepted"), 0);
+    else
+        emit statusUpdateMessage(QString("Dialog rejected"), 0);
+
+}
+
+void MainWindow::handleTreeClicked()
+{
+    // Get the index of the selected item
+    QModelIndex index = ui->treeView->currentIndex();
+
+    // Get a pointer to the item from the index
+    ModelPart* selectedPart = static_cast<ModelPart*>(index.internalPointer());
+
+    // Retrieve the name string from the item
+    QString text = selectedPart->data(0).toString();
+
+    emit statusUpdateMessage(QString("The selected item is: ") + text, 0);
+}
+
+// mainwindow.cpp
+#include <QFileDialog>
+
+void MainWindow::on_actionOpen_triggered() {
+    // 1. Open the file dialog and get a filename
+    QString fileName = QFileDialog::getOpenFileName(this,
+                                                    tr("Open Model File"), "", tr("Text Files (*.txt);;All Files (*)"));
+
+    // 2. Check if the user actually selected a file or hit 'Cancel'
+    if (!fileName.isEmpty()) {
+        // 3. For Exercise 8, show the path in the status bar
+        // This uses the custom signal you built in Exercise 3
+        emit statusUpdateMessage(QString("Opened file: %1").arg(fileName), 0);
+
+        // Note: In later exercises, you will add code here to actually
+        // read the file and add items to partModel.
+    } else {
+        emit statusUpdateMessage(tr("Open operation cancelled"), 2000);
+    }
 }

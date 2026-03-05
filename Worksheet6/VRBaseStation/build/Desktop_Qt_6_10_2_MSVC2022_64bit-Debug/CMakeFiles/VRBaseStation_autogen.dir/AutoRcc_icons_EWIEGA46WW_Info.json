@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/VRBaseStation_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation",
+	"CMAKE_SOURCE_DIR" : "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/VRBaseStation_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/filesave.png",
+		"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/help.png",
+		"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/print.png",
+		"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/startVR.png",
+		"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/fileopen.png",
+		"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/stopVR.png"
+	],
+	"LOCK_FILE" : "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/CMakeFiles/VRBaseStation_autogen.dir/AutoRcc_icons_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "icons" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_icons.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.10.2/msvc2022_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug/CMakeFiles/VRBaseStation_autogen.dir/AutoRcc_icons_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/icons.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

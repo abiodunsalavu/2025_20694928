@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-a998bb019e117485311c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "VRBaseStation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "VRBaseStation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-VRBaseStation-Debug-e5a8b2a4146d7435d3be.json",
+					"name" : "VRBaseStation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "VRBaseStation_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-VRBaseStation_autogen-Debug-6da8e79cf9c8b66cc874.json",
+					"name" : "VRBaseStation_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "VRBaseStation_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-VRBaseStation_autogen_timestamp_deps-Debug-e49b5310d6cec9146c41.json",
+					"name" : "VRBaseStation_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/Desktop_Qt_6_10_2_MSVC2022_64bit-Debug",
+		"source" : "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

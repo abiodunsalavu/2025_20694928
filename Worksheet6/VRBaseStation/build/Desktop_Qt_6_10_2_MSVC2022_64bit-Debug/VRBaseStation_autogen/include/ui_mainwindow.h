@@ -71,6 +71,7 @@ public:
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(treeView->sizePolicy().hasHeightForWidth());
         treeView->setSizePolicy(sizePolicy);
+        treeView->setContextMenuPolicy(Qt::ContextMenuPolicy::ActionsContextMenu);
 
         horizontalLayout->addWidget(treeView);
 
@@ -109,7 +110,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 1109, 21));
+        menubar->setGeometry(QRect(0, 0, 1109, 25));
         menuFile = new QMenu(menubar);
         menuFile->setObjectName("menuFile");
         MainWindow->setMenuBar(menubar);
@@ -129,7 +130,7 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         actionOpen_File->setText(QCoreApplication::translate("MainWindow", "Open File", nullptr));
-        actionItemOptions->setText(QCoreApplication::translate("MainWindow", "ItemOptions", nullptr));
+        actionItemOptions->setText(QCoreApplication::translate("MainWindow", "Item Options", nullptr));
         pushButton->setText(QCoreApplication::translate("MainWindow", "PushButton", nullptr));
         pushButton_2->setText(QCoreApplication::translate("MainWindow", "PushButton", nullptr));
         menuFile->setTitle(QCoreApplication::translate("MainWindow", "File", nullptr));

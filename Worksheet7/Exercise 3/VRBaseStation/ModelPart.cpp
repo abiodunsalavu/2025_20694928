@@ -17,7 +17,7 @@
 #include <vtkDataSetMapper.h>
 #include <vtkPolyDataMapper.h>
 
-
+#include <QFileInfo>
 ModelPart::ModelPart(const QList<QVariant>& data, ModelPart* parent )
     : m_itemData(data), m_parentItem(parent) {
 
@@ -139,6 +139,13 @@ bool ModelPart::visible() {
 
 void ModelPart::loadSTL(QString fileName)
 {
+    // 1. Extract the clean name and update the ModelPart's data
+    QFileInfo fileInfo(fileName);
+    QString shortName = fileInfo.baseName(); // Gets "Part1" from "C:/Path/Part1.stl"
+
+    // Use your existing set() function to store this name in Column 0
+    this->set(0, shortName);
+
     file = vtkSmartPointer<vtkSTLReader>::New();
     file->SetFileName(fileName.toStdString().c_str());
     file->Update();

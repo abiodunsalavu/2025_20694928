@@ -100,26 +100,48 @@ void MainWindow::handleTreeClicked() {
     QString text = selectedPart->data(0).toString();
     emit statusUpdateMessage(QString("The seleced item is: ")+text, 0);
 }
-void MainWindow::on_actionOpen_File_triggered(){
-    emit statusUpdateMessage(QString("Open File action triggered"), 0 );
+void MainWindow::on_actionOpen_File_triggered() {
+    emit statusUpdateMessage(QString("Open File action triggered"), 0);
+
     QString fileName = QFileDialog::getOpenFileName(
         this,
         tr("Open File"),
         "C:\\",
         tr("STL (*.stl);;Text Files (*.txt)")
         );
-    if(fileName.isEmpty())
+
+    if (fileName.isEmpty()) {
         return;
-    else{
-        /* creating a new model part */
+    } else {
+        /* 1. Create the new model part */
+        // We pass the full path initially; your loadSTL will clean it up
         ModelPart* part = new ModelPart({ fileName, QString("true") });
-        /*Adding the model part to the tree as a child item */
+
+        /* 2. Adding the model part to the tree as a child item */
         QModelIndex index = ui->treeView->currentIndex();
-        ModelPart* parentPart = static_cast<ModelPart*>(index.internalPointer());
-        parentPart->appendChild(part);
-        /*loading the stl file using name from option action */
+        ModelPart* parentPart;
+
+        if (index.isValid()) {
+            parentPart = static_cast<ModelPart*>(index.internalPointer());
+        } else {
+            /* Fix for Error C2065: 'm_ModelPartList' is undefined.
+               Check your mainwindow.h for the actual name (likely 'partList') */
+            parentPart = partList->getRootItem();
+        }
+
+        if (parentPart) {
+            parentPart->appendChild(part);
+        }
+
+        /* 3. Loading the stl file */
+        // This calls your QFileInfo logic in ModelPart.cpp to set the short name
         part->loadSTL(fileName);
-        /*updating the renderer to show new image*/
+
+        /* 4. Refresh the TreeView */
+        // Without this, the UI stays stuck on "Item 0,0"
+        partList->layoutChanged();
+
+        /* 5. Updating the renderer to show new image */
         updateRender();
     }
 }

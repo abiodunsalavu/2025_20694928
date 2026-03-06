@@ -13,9 +13,9 @@
 /* Commented out for now, will be uncommented later when you have
  * installed the VTK library
  */
-//#include <vtkSmartPointer.h>
-//#include <vtkDataSetMapper.h>
-
+#include <vtkSmartPointer.h>
+#include <vtkDataSetMapper.h>
+#include <vtkPolyDataMapper.h>
 
 
 ModelPart::ModelPart(const QList<QVariant>& data, ModelPart* parent )
@@ -137,50 +137,49 @@ bool ModelPart::visible() {
     return false;
 }
 
-void ModelPart::loadSTL( QString fileName ) {
-    /* This is a placeholder function that you will need to modify if you want to use it */
-    
-    /* 1. Use the vtkSTLReader class to load the STL file 
-     *     https://vtk.org/doc/nightly/html/classvtkSTLReader.html
-     */
+void ModelPart::loadSTL(QString fileName)
+{
+    file = vtkSmartPointer<vtkSTLReader>::New();
+    file->SetFileName(fileName.toStdString().c_str());
+    file->Update();
+    mapper = vtkSmartPointer<vtkPolyDataMapper>::New();
+    mapper->SetInputConnection(file->GetOutputPort());
 
-    /* 2. Initialise the part's vtkMapper */
-    
-    /* 3. Initialise the part's vtkActor and link to the mapper */
+    actor = vtkSmartPointer<vtkActor>::New();
+    actor->SetMapper(mapper);
 }
-
-//vtkSmartPointer<vtkActor> ModelPart::getActor() {
+vtkSmartPointer<vtkActor> ModelPart::getActor() {
     /* This is a placeholder function that you will need to modify if you want to use it */
-    
+        return actor;
     /* Needs to return a smart pointer to the vtkActor to allow
      * part to be rendered.
      */
-//}
+}
 
-//vtkActor* ModelPart::getNewActor() {
-    /* This is a placeholder function that you will need to modify if you want to use it
-     * 
-     * The default mapper/actor combination can only be used to render the part in 
-     * the GUI, it CANNOT also be used to render the part in VR. This means you need
-     * to create a second mapper/actor combination for use in VR - that is the role
-     * of this function. */
-     
-     
-     /* 1. Create new mapper */
-     
-     /* 2. Create new actor and link to mapper */
-     
-     /* 3. Link the vtkProperties of the original actor to the new actor. This means 
-      *    if you change properties of the original part (colour, position, etc), the
-      *    changes will be reflected in the GUI AND VR rendering.
-      *    
-      *    See the vtkActor documentation, particularly the GetProperty() and SetProperty()
-      *    functions.
-      */
-    
+// /* vtkActor* ModelPart::getNewActor() {
+//     /* This is a placeholder function that you will need to modify if you want to use it
+//      *
+//      * The default mapper/actor combination can only be used to render the part in
+//      * the GUI, it CANNOT also be used to render the part in VR. This means you need
+//      * to create a second mapper/actor combination for use in VR - that is the role
+//      * of this function. */
+//      /* 1. Create new mapper */
+//     vtkSmartPointer<vtkMapper> newMapper = vtkSmartPointer<vtkMapper>::New();
+//     newMapper->SetInputConnection(file->GetOutputPort());
+//      /* 2. Create new actor and link to mapper */
+//     vtkActor* newActor = vtkActor::New();
+//     newActor->SetMapper(newMapper);
+//      /* 3. Link the vtkProperties of the original actor to the new actor. This means
+//       *    if you change properties of the original part (colour, position, etc), the
+//       *    changes will be reflected in the GUI AND VR rendering.
+//       *
+//       *    See the vtkActor documentation, particularly the GetProperty() and SetProperty()
+//       *    functions.
+//       */
+//     newActor->SetProperty(actor->GetProperty());
+//     /* The new vtkActor pointer must be returned here */
+//     return newActor;
 
-    /* The new vtkActor pointer must be returned here */
-//    return nullptr;
-    
-//}
+// /*
+
 

@@ -1,4 +1,118 @@
 C:/Users/asala/2025_20694928/Worksheet7/Exercise\ 3/VRBaseStation/build/VRBaseStation_autogen/include_Debug/EWIEGA46WW/moc_optiondialog.cpp: C:/Users/asala/2025_20694928/Worksheet7/Exercise\ 3/VRBaseStation/optiondialog.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkABI.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkABINamespace.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkAOSDataArrayTemplate.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkAbstractArray.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkAbstractCellArray.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkAbstractCellLinks.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkAbstractMapper.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkAbstractMapper3D.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkAbstractPolyDataReader.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkActor.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkAffineArray.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkAffineImplicitBackend.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkAlgorithm.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkArrayComponents.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkAssume.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkBoundingBox.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkBuffer.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkBuild.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkCell.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkCellArray.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkCellLinks.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkCellType.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkCellTypeUtilities.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkCellTypes.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkColor.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkCommonCoreModule.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkCommonDataModelModule.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkCommonExecutionModelModule.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkCompiler.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkDataArray.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkDataArrayAccessor.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkDataArrayMeta.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkDataArrayRange.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkDataArrayTupleRange_AOS.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkDataArrayTupleRange_Generic.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkDataArrayValueRange_AOS.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkDataArrayValueRange_Generic.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkDataObject.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkDataSet.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkDebugLeaksManager.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkDebugRangeIterators.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkDeprecation.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkFeatures.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkFiltersCoreModule.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkGenericCell.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkGenericDataArray.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkGenericDataArray.txx \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkGenericDataArrayLookupHelper.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkIOCoreModule.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkIOGeometryModule.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkIOStream.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkIdList.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkIdTypeArray.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkImplicitArray.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkImplicitArray.txx \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkImplicitArrayTraits.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkIndent.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkIntArray.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkLogger.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkMapper.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkMath.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkMathConfigure.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkMathPrivate.hxx \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkMatrixUtilities.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkMeta.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkNew.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkOStrStreamWrapper.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkOStreamWrapper.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkObject.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkObjectBase.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkObjectFactory.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkOptions.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkPlatform.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkPointSet.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkPoints.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkPolyData.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkPolyDataAlgorithm.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkPolyDataInternals.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkPolyDataMapper.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkProp.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkProp3D.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkRenderingCoreModule.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkResourceStream.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkSTLReader.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkSetGet.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkSmartPointer.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkSmartPointerBase.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkStdString.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkSystemIncludes.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkTimeStamp.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkTuple.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkType.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkTypeInt32Array.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkTypeInt64Array.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkTypeList.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkTypeList.txx \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkTypeListMacros.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkTypeTraits.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkUnsignedCharArray.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkVariant.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkVariantCast.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkVariantInlineOperators.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkVersionQuick.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkWeakPointer.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkWeakPointerBase.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkWin32Header.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkWrappingHints.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtk_kwiml.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkkwiml/abi.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkkwiml/int.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtksys/Configure.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtksys/Configure.hxx \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtksys/Status.hxx \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtksys/SystemTools.hxx \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/Include/10.0.26100.0/ucrt/assert.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/Include/10.0.26100.0/ucrt/corecrt.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/Include/10.0.26100.0/ucrt/corecrt_malloc.h \
@@ -10,10 +124,14 @@ C:/Users/asala/2025_20694928/Worksheet7/Exercise\ 3/VRBaseStation/build/VRBaseSt
   C:/Program\ Files\ (x86)/Windows\ Kits/10/Include/10.0.26100.0/ucrt/corecrt_wstdlib.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/Include/10.0.26100.0/ucrt/corecrt_wstring.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/Include/10.0.26100.0/ucrt/errno.h \
+  C:/Program\ Files\ (x86)/Windows\ Kits/10/Include/10.0.26100.0/ucrt/float.h \
+  C:/Program\ Files\ (x86)/Windows\ Kits/10/Include/10.0.26100.0/ucrt/inttypes.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/Include/10.0.26100.0/ucrt/stddef.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/Include/10.0.26100.0/ucrt/stdio.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/Include/10.0.26100.0/ucrt/stdlib.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/Include/10.0.26100.0/ucrt/string.h \
+  C:/Program\ Files\ (x86)/Windows\ Kits/10/Include/10.0.26100.0/ucrt/sys/stat.h \
+  C:/Program\ Files\ (x86)/Windows\ Kits/10/Include/10.0.26100.0/ucrt/sys/types.h \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/algorithm \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/array \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/atomic \
@@ -26,8 +144,13 @@ C:/Users/asala/2025_20694928/Worksheet7/Exercise\ 3/VRBaseStation/build/VRBaseSt
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/cstdint \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/cstdlib \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/cstring \
+  C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/fstream \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/functional \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/initializer_list \
+  C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/iomanip \
+  C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/ios \
+  C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/iosfwd \
+  C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/istream \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/iterator \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/limits \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/limits.h \
@@ -37,14 +160,18 @@ C:/Users/asala/2025_20694928/Worksheet7/Exercise\ 3/VRBaseStation/build/VRBaseSt
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/new \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/numeric \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/optional \
+  C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/ostream \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/sal.h \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/set \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/stdarg.h \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/stdbool.h \
+  C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/stdint.h \
+  C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/streambuf \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/string \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/string_view \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/tuple \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/type_traits \
+  C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/typeinfo \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/unordered_map \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/unordered_set \
   C:/Program\ Files/Microsoft\ Visual\ Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/utility \

@@ -29,6 +29,9 @@ public slots:
     void on_actionOpen_File_triggered();
     void handleButton2();
     void on_actionItemOptions_triggered();
+    void updateRender();
+    void updateRenderFromTree(const QModelIndex& index);
+
 signals:
     void statusUpdateMessage (const QString & message, int timeout);
 private:

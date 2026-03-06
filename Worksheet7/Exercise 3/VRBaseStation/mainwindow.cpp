@@ -12,7 +12,7 @@
 #include <vtkCamera.h>
 #include <vtkNew.h>
 #include <QVTKOpenGLNativeWidget.h>
-
+#include <vtkGenericOpenGLRenderWindow.h>
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -108,6 +108,20 @@ void MainWindow::on_actionOpen_File_triggered(){
         "C:\\",
         tr("STL (*.stl);;Text Files (*.txt)")
         );
+    if(fileName.isEmpty())
+        return;
+    else{
+        /* creating a new model part */
+        ModelPart* part = new ModelPart({ fileName, QString("true") });
+        /*Adding the model part to the tree as a child item */
+        QModelIndex index = ui->treeView->currentIndex();
+        ModelPart* parentPart = static_cast<ModelPart*>(index.internalPointer());
+        parentPart->appendChild(part);
+        /*loading the stl file using name from option action */
+        part->loadSTL(fileName);
+        /*updating the renderer to show new image*/
+        updateRender();
+    }
 }
 void MainWindow::handleButton2()
 {
@@ -148,5 +162,28 @@ void MainWindow::on_actionItemOptions_triggered() {
             dialog.updateModelPart(); // Save data from dialog to part
             ui->treeView->update();   // Refresh the view to show changes
         }
+    }
+}
+void MainWindow::updateRender(){
+    renderer->RemoveAllViewProps();
+    updateRenderFromTree(partList->index(0, 0, QModelIndex() ) );
+    renderer->Render();
+}
+
+void MainWindow::updateRenderFromTree(const QModelIndex& index){
+    if (index.isValid() ){
+        ModelPart* selectedPart = static_cast<ModelPart*>(index.internalPointer() );
+        /* Retrieve actor from selected part and add to renderer */
+        vtkSmartPointer<vtkActor> actor = selectedPart->getActor();
+        if (actor) {
+            renderer->AddActor(actor);
+        }
+    }
+    if (!partList->hasChildren(index) || (index.flags() & Qt::ItemNeverHasChildren) ){
+        return;
+    }
+    int rows = partList->rowCount(index);
+    for (int i =0; i < rows; i++){
+        updateRenderFromTree(partList->index(i, 0, index));
     }
 }

@@ -7,6 +7,7 @@ C:/Users/asala/2025_20694928/Worksheet7/Exercise\ 3/VRBaseStation/build/VRBaseSt
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkAbstractCellLinks.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkAbstractMapper.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkAbstractMapper3D.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkAbstractPolyDataReader.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkActor.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkActorCollection.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkAffineArray.h \
@@ -24,6 +25,7 @@ C:/Users/asala/2025_20694928/Worksheet7/Exercise\ 3/VRBaseStation/build/VRBaseSt
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkCellTypeUtilities.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkCellTypes.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkCollection.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkColor.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkCommand.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkCommonCoreModule.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkCommonDataModelModule.h \
@@ -53,6 +55,8 @@ C:/Users/asala/2025_20694928/Worksheet7/Exercise\ 3/VRBaseStation/build/VRBaseSt
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkGenericDataArray.txx \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkGenericDataArrayLookupHelper.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkGenericOpenGLRenderWindow.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkIOCoreModule.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkIOGeometryModule.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkIOImageModule.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkIOStream.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkIdList.h \
@@ -95,6 +99,8 @@ C:/Users/asala/2025_20694928/Worksheet7/Exercise\ 3/VRBaseStation/build/VRBaseSt
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkRenderingHyperTreeGridModule.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkRenderingOpenGL2Module.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkRenderingUIModule.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkResourceStream.h \
+  C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkSTLReader.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkSelection.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkSetGet.h \
   C:/Program\ Files\ (x86)/VTK/include/vtk-9.6/vtkSmartPointer.h \

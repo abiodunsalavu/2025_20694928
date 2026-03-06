@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\VRBaseStation_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\ModelPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\ModelPartList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\optiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\VRBaseStation_autogen\EWIEGA46WW_Debug\qrc_icons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\VRBaseStation_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\VRBaseStation_autogen\EWIEGA46WW_Release\qrc_icons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\VRBaseStation_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\VRBaseStation_autogen\EWIEGA46WW_MinSizeRel\qrc_icons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\VRBaseStation_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\VRBaseStation_autogen\EWIEGA46WW_RelWithDebInfo\qrc_icons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\ModelPart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\ModelPartList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\optiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\VRBaseStation_autogen\include_Debug\ui_mainwindow.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\VRBaseStation_autogen\include_Debug\ui_optiondialog.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\VRBaseStation_autogen\include_Release\ui_mainwindow.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\VRBaseStation_autogen\include_Release\ui_optiondialog.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\VRBaseStation_autogen\include_MinSizeRel\ui_mainwindow.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\VRBaseStation_autogen\include_MinSizeRel\ui_optiondialog.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\VRBaseStation_autogen\include_RelWithDebInfo\ui_mainwindow.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\VRBaseStation_autogen\include_RelWithDebInfo\ui_optiondialog.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\CMakeFiles\2383bc04eb4d1855e59f2963aceeda52\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\CMakeFiles\bc940730bf378bd56f51e4489823de13\qrc_icons.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\mainwindow.ui" />
+    <None Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\icons.qrc" />
+    <None Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\optiondialog.ui" />
+    <None Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\VRBaseStation_autogen\autouic_Debug.stamp">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\VRBaseStation_autogen\autouic_Release.stamp">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\VRBaseStation_autogen\autouic_MinSizeRel.stamp">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\VRBaseStation_autogen\autouic_RelWithDebInfo.stamp">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2C1B66AB-02C9-3E67-933D-286A866EF500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C1329FC7-3FDF-3761-A9C5-D47B725FD10F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C73F0C97-7878-3B84-994F-292248343BCD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generated">
+      <UniqueIdentifier>{84DED163-E77E-301A-91A2-D2D49F269965}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

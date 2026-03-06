@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\CMakeFiles\36477d530329133c1a182ae921a3e582\VRBaseStation_build.cmake.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\CMakeFiles\ba4900caea88f48801a436b6b402a542\VRBaseStation_qmlimportscan.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\asala\2025_20694928\Worksheet7\Exercise 3\VRBaseStation\build\CMakeFiles\VRBaseStation_qmlimportscan" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2C1B66AB-02C9-3E67-933D-286A866EF500}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

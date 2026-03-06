@@ -1,0 +1,4 @@
+C:/Users/asala/2025_20694928/Worksheet7/Exercise2/VTK_VR_Demo/build/CMakeFiles/vtkexample_vr1.dir
+C:/Users/asala/2025_20694928/Worksheet7/Exercise2/VTK_VR_Demo/build/CMakeFiles/VRBindings.dir
+C:/Users/asala/2025_20694928/Worksheet7/Exercise2/VTK_VR_Demo/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/asala/2025_20694928/Worksheet7/Exercise2/VTK_VR_Demo/build/CMakeFiles/ZERO_CHECK.dir

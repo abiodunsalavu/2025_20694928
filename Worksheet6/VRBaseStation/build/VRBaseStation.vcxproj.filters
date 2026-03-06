@@ -16,6 +16,9 @@
     <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet6\VRBaseStation\ModelPartList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet6\VRBaseStation\optiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\asala\2025_20694928\Worksheet6\VRBaseStation\build\VRBaseStation_autogen\EWIEGA46WW_Debug\qrc_icons.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -48,16 +51,31 @@
     <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet6\VRBaseStation\ModelPartList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet6\VRBaseStation\optiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet6\VRBaseStation\build\VRBaseStation_autogen\include_Debug\ui_mainwindow.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet6\VRBaseStation\build\VRBaseStation_autogen\include_Debug\ui_optiondialog.h">
       <Filter>Source Files\Generated</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet6\VRBaseStation\build\VRBaseStation_autogen\include_Release\ui_mainwindow.h">
       <Filter>Source Files\Generated</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet6\VRBaseStation\build\VRBaseStation_autogen\include_Release\ui_optiondialog.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet6\VRBaseStation\build\VRBaseStation_autogen\include_MinSizeRel\ui_mainwindow.h">
       <Filter>Source Files\Generated</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet6\VRBaseStation\build\VRBaseStation_autogen\include_MinSizeRel\ui_optiondialog.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet6\VRBaseStation\build\VRBaseStation_autogen\include_RelWithDebInfo\ui_mainwindow.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\asala\2025_20694928\Worksheet6\VRBaseStation\build\VRBaseStation_autogen\include_RelWithDebInfo\ui_optiondialog.h">
       <Filter>Source Files\Generated</Filter>
     </ClInclude>
   </ItemGroup>
@@ -73,6 +91,7 @@
   <ItemGroup>
     <None Include="C:\Users\asala\2025_20694928\Worksheet6\VRBaseStation\mainwindow.ui" />
     <None Include="C:\Users\asala\2025_20694928\Worksheet6\VRBaseStation\icons.qrc" />
+    <None Include="C:\Users\asala\2025_20694928\Worksheet6\VRBaseStation\optiondialog.ui" />
     <None Include="C:\Users\asala\2025_20694928\Worksheet6\VRBaseStation\build\VRBaseStation_autogen\autouic_Debug.stamp">
       <Filter>Source Files\Generated</Filter>
     </None>

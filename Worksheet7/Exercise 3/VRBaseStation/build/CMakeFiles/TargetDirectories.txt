@@ -1,0 +1,6 @@
+C:/Users/asala/2025_20694928/Worksheet7/Exercise 3/VRBaseStation/build/CMakeFiles/VRBaseStation.dir
+C:/Users/asala/2025_20694928/Worksheet7/Exercise 3/VRBaseStation/build/CMakeFiles/vrbindings.dir
+C:/Users/asala/2025_20694928/Worksheet7/Exercise 3/VRBaseStation/build/CMakeFiles/VRBaseStation_qmlimportscan.dir
+C:/Users/asala/2025_20694928/Worksheet7/Exercise 3/VRBaseStation/build/CMakeFiles/INSTALL.dir
+C:/Users/asala/2025_20694928/Worksheet7/Exercise 3/VRBaseStation/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/asala/2025_20694928/Worksheet7/Exercise 3/VRBaseStation/build/CMakeFiles/ZERO_CHECK.dir

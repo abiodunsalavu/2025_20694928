@@ -35,6 +35,17 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
         - "C:\\Python27\\"
         - "C:\\Python27\\Scripts"
         - "C:\\WINDOWS\\system32"
@@ -50,9 +61,22 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Users\\asala\\Downloads\\openvr-master\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\asala\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\asala\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
+      ENV{INCLUDE}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\include"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\atlmfc\\include"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Auxiliary\\VS\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\shared"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\cppwinrt"
+        - "Include\\um"
   -
     kind: "message-v1"
     backtrace:
@@ -69,7 +93,7 @@ events:
       The output was:
       0
       MSBuild version 18.0.5+e22287bf1 for .NET Framework
-      Build started 04/03/2026 09:49:50.
+      Build started 05/03/2026 14:43:46.
       
       Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -98,7 +122,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.58
+      Time Elapsed 00:00:01.08
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -131,6 +155,15 @@ events:
       - "link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/"
       - "C:/Python27/"
       - "C:/Python27/Scripts/"
       - "C:/Windows/System32/"
@@ -146,6 +179,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/doxygen/bin/"
       - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/"
+      - "C:/Program Files (x86)/VTK/bin/"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/asala/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/"
@@ -154,6 +189,17 @@ events:
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
         - "C:\\Python27\\"
         - "C:\\Python27\\Scripts"
         - "C:\\WINDOWS\\system32"
@@ -169,6 +215,8 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Users\\asala\\Downloads\\openvr-master\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\asala\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\asala\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
@@ -195,6 +243,15 @@ events:
       - "lld-link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/"
       - "C:/Python27/"
       - "C:/Python27/Scripts/"
       - "C:/Windows/System32/"
@@ -210,6 +267,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/doxygen/bin/"
       - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/"
+      - "C:/Program Files (x86)/VTK/bin/"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/asala/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/"
@@ -217,6 +276,33 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/lld-link"
+      - "C:/Program Files (x86)/HTML Help Workshop/lld-link.com"
+      - "C:/Program Files (x86)/HTML Help Workshop/lld-link.exe"
+      - "C:/Program Files (x86)/HTML Help Workshop/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/lld-link"
       - "C:/Python27/lld-link.com"
       - "C:/Python27/lld-link.exe"
       - "C:/Python27/lld-link"
@@ -262,6 +348,12 @@ events:
       - "C:/Qt/6.10.2/msvc2022_64/bin/lld-link.com"
       - "C:/Qt/6.10.2/msvc2022_64/bin/lld-link.exe"
       - "C:/Qt/6.10.2/msvc2022_64/bin/lld-link"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/lld-link.com"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/lld-link.exe"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/lld-link"
+      - "C:/Program Files (x86)/VTK/bin/lld-link.com"
+      - "C:/Program Files (x86)/VTK/bin/lld-link.exe"
+      - "C:/Program Files (x86)/VTK/bin/lld-link"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/lld-link.com"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/lld-link"
@@ -274,6 +366,17 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
         - "C:\\Python27\\"
         - "C:\\Python27\\Scripts"
         - "C:\\WINDOWS\\system32"
@@ -289,6 +392,8 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Users\\asala\\Downloads\\openvr-master\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\asala\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\asala\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
@@ -313,6 +418,15 @@ events:
       - "link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/"
       - "C:/Python27/"
       - "C:/Python27/Scripts/"
       - "C:/Windows/System32/"
@@ -328,6 +442,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/doxygen/bin/"
       - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/"
+      - "C:/Program Files (x86)/VTK/bin/"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/asala/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/"
@@ -336,6 +452,17 @@ events:
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
         - "C:\\Python27\\"
         - "C:\\Python27\\Scripts"
         - "C:\\WINDOWS\\system32"
@@ -351,6 +478,8 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Users\\asala\\Downloads\\openvr-master\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\asala\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\asala\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
@@ -375,6 +504,15 @@ events:
       - "mt"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/"
       - "C:/Python27/"
       - "C:/Python27/Scripts/"
       - "C:/Windows/System32/"
@@ -390,6 +528,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/doxygen/bin/"
       - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/"
+      - "C:/Program Files (x86)/VTK/bin/"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/asala/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/"
@@ -397,63 +537,21 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
-      - "C:/Python27/mt.com"
-      - "C:/Python27/mt.exe"
-      - "C:/Python27/mt"
-      - "C:/Python27/Scripts/mt.com"
-      - "C:/Python27/Scripts/mt.exe"
-      - "C:/Python27/Scripts/mt"
-      - "C:/Windows/System32/mt.com"
-      - "C:/Windows/System32/mt.exe"
-      - "C:/Windows/System32/mt"
-      - "C:/Windows/mt.com"
-      - "C:/Windows/mt.exe"
-      - "C:/Windows/mt"
-      - "C:/Windows/System32/wbem/mt.com"
-      - "C:/Windows/System32/wbem/mt.exe"
-      - "C:/Windows/System32/wbem/mt"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
-      - "C:/Windows/System32/OpenSSH/mt.com"
-      - "C:/Windows/System32/OpenSSH/mt.exe"
-      - "C:/Windows/System32/OpenSSH/mt"
-      - "C:/Program Files/dotnet/mt.com"
-      - "C:/Program Files/dotnet/mt.exe"
-      - "C:/Program Files/dotnet/mt"
-      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/mt.com"
-      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/mt.exe"
-      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/mt"
-      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/mt.com"
-      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/mt.exe"
-      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/mt"
-      - "C:/Program Files/Git/cmd/mt.com"
-      - "C:/Program Files/Git/cmd/mt.exe"
-      - "C:/Program Files/Git/cmd/mt"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
-      - "C:/Program Files/CMake/bin/mt.com"
-      - "C:/Program Files/CMake/bin/mt.exe"
-      - "C:/Program Files/CMake/bin/mt"
-      - "C:/Program Files/doxygen/bin/mt.com"
-      - "C:/Program Files/doxygen/bin/mt.exe"
-      - "C:/Program Files/doxygen/bin/mt"
-      - "C:/Qt/6.10.2/msvc2022_64/bin/mt.com"
-      - "C:/Qt/6.10.2/msvc2022_64/bin/mt.exe"
-      - "C:/Qt/6.10.2/msvc2022_64/bin/mt"
-      - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/mt.com"
-      - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/mt.exe"
-      - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/mt"
-      - "C:/Users/asala/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
-      - "C:/Users/asala/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
-      - "C:/Users/asala/AppData/Local/Programs/Microsoft VS Code/bin/mt"
-      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/mt.com"
-      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/mt.exe"
-      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/mt"
-    found: false
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/mt.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/mt.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
         - "C:\\Python27\\"
         - "C:\\Python27\\Scripts"
         - "C:\\WINDOWS\\system32"
@@ -469,6 +567,8 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Users\\asala\\Downloads\\openvr-master\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\asala\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\asala\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
@@ -493,6 +593,15 @@ events:
       - "lib"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/"
       - "C:/Python27/"
       - "C:/Python27/Scripts/"
       - "C:/Windows/System32/"
@@ -508,6 +617,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/doxygen/bin/"
       - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/"
+      - "C:/Program Files (x86)/VTK/bin/"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/asala/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/"
@@ -516,6 +627,17 @@ events:
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
         - "C:\\Python27\\"
         - "C:\\Python27\\Scripts"
         - "C:\\WINDOWS\\system32"
@@ -531,6 +653,8 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Users\\asala\\Downloads\\openvr-master\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\asala\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\asala\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
@@ -557,6 +681,16 @@ events:
     names:
       - "rc"
     candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/"
       - "C:/Python27/"
       - "C:/Python27/Scripts/"
       - "C:/Windows/System32/"
@@ -572,6 +706,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/doxygen/bin/"
       - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/"
+      - "C:/Program Files (x86)/VTK/bin/"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/asala/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/"
@@ -588,99 +724,24 @@ events:
       - "C:/Program Files (x86)/VRBaseStation/sbin/"
       - "C:/Program Files (x86)/VRBaseStation/"
     searched_directories:
-      - "C:/Python27/rc.com"
-      - "C:/Python27/rc.exe"
-      - "C:/Python27/rc"
-      - "C:/Python27/Scripts/rc.com"
-      - "C:/Python27/Scripts/rc.exe"
-      - "C:/Python27/Scripts/rc"
-      - "C:/Windows/System32/rc.com"
-      - "C:/Windows/System32/rc.exe"
-      - "C:/Windows/System32/rc"
-      - "C:/Windows/rc.com"
-      - "C:/Windows/rc.exe"
-      - "C:/Windows/rc"
-      - "C:/Windows/System32/wbem/rc.com"
-      - "C:/Windows/System32/wbem/rc.exe"
-      - "C:/Windows/System32/wbem/rc"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
-      - "C:/Windows/System32/OpenSSH/rc.com"
-      - "C:/Windows/System32/OpenSSH/rc.exe"
-      - "C:/Windows/System32/OpenSSH/rc"
-      - "C:/Program Files/dotnet/rc.com"
-      - "C:/Program Files/dotnet/rc.exe"
-      - "C:/Program Files/dotnet/rc"
-      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/rc.com"
-      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/rc.exe"
-      - "C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/rc"
-      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/rc.com"
-      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/rc.exe"
-      - "C:/Program Files/IVI Foundation/VISA/Win64/Bin/rc"
-      - "C:/Program Files/Git/cmd/rc.com"
-      - "C:/Program Files/Git/cmd/rc.exe"
-      - "C:/Program Files/Git/cmd/rc"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
-      - "C:/Program Files/CMake/bin/rc.com"
-      - "C:/Program Files/CMake/bin/rc.exe"
-      - "C:/Program Files/CMake/bin/rc"
-      - "C:/Program Files/doxygen/bin/rc.com"
-      - "C:/Program Files/doxygen/bin/rc.exe"
-      - "C:/Program Files/doxygen/bin/rc"
-      - "C:/Qt/6.10.2/msvc2022_64/bin/rc.com"
-      - "C:/Qt/6.10.2/msvc2022_64/bin/rc.exe"
-      - "C:/Qt/6.10.2/msvc2022_64/bin/rc"
-      - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/rc.com"
-      - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/rc.exe"
-      - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/rc"
-      - "C:/Users/asala/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
-      - "C:/Users/asala/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
-      - "C:/Users/asala/AppData/Local/Programs/Microsoft VS Code/bin/rc"
-      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/rc.com"
-      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/rc.exe"
-      - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/rc"
-      - "C:/Program Files/bin/rc.com"
-      - "C:/Program Files/bin/rc.exe"
-      - "C:/Program Files/bin/rc"
-      - "C:/Program Files/sbin/rc.com"
-      - "C:/Program Files/sbin/rc.exe"
-      - "C:/Program Files/sbin/rc"
-      - "C:/Program Files/rc.com"
-      - "C:/Program Files/rc.exe"
-      - "C:/Program Files/rc"
-      - "C:/Program Files (x86)/bin/rc.com"
-      - "C:/Program Files (x86)/bin/rc.exe"
-      - "C:/Program Files (x86)/bin/rc"
-      - "C:/Program Files (x86)/sbin/rc.com"
-      - "C:/Program Files (x86)/sbin/rc.exe"
-      - "C:/Program Files (x86)/sbin/rc"
-      - "C:/Program Files (x86)/rc.com"
-      - "C:/Program Files (x86)/rc.exe"
-      - "C:/Program Files (x86)/rc"
-      - "C:/Program Files/CMake/bin/rc.com"
-      - "C:/Program Files/CMake/bin/rc.exe"
-      - "C:/Program Files/CMake/bin/rc"
-      - "C:/Program Files/CMake/sbin/rc.com"
-      - "C:/Program Files/CMake/sbin/rc.exe"
-      - "C:/Program Files/CMake/sbin/rc"
-      - "C:/Program Files/CMake/rc.com"
-      - "C:/Program Files/CMake/rc.exe"
-      - "C:/Program Files/CMake/rc"
-      - "C:/Program Files (x86)/VRBaseStation/bin/rc.com"
-      - "C:/Program Files (x86)/VRBaseStation/bin/rc.exe"
-      - "C:/Program Files (x86)/VRBaseStation/bin/rc"
-      - "C:/Program Files (x86)/VRBaseStation/sbin/rc.com"
-      - "C:/Program Files (x86)/VRBaseStation/sbin/rc.exe"
-      - "C:/Program Files (x86)/VRBaseStation/sbin/rc"
-      - "C:/Program Files (x86)/VRBaseStation/rc.com"
-      - "C:/Program Files (x86)/VRBaseStation/rc.exe"
-      - "C:/Program Files (x86)/VRBaseStation/rc"
-    found: false
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/rc.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/rc.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
         - "C:\\Python27\\"
         - "C:\\Python27\\Scripts"
         - "C:\\WINDOWS\\system32"
@@ -696,6 +757,8 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Users\\asala\\Downloads\\openvr-master\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\asala\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\asala\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
@@ -714,8 +777,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-vn64fb"
-      binary: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-vn64fb"
+      source: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-yo6ibm"
+      binary: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-yo6ibm"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -725,39 +788,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-vn64fb'
+        Change Dir: 'C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-yo6ibm'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_73d3f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f2eec.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.0.5+e22287bf1 for .NET Framework
-        Build started 04/03/2026 09:49:51.
+        Build started 05/03/2026 14:43:48.
         
-        Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vn64fb\\cmTC_73d3f.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yo6ibm\\cmTC_f2eec.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vn64fb\\Debug\\".
-          Creating directory "cmTC_73d3f.dir\\Debug\\cmTC_73d3f.tlog\\".
+          Creating directory "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yo6ibm\\Debug\\".
+          Creating directory "cmTC_f2eec.dir\\Debug\\cmTC_f2eec.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_73d3f.dir\\Debug\\cmTC_73d3f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_73d3f.dir\\Debug\\cmTC_73d3f.tlog\\unsuccessfulbuild".
+          Creating "cmTC_f2eec.dir\\Debug\\cmTC_f2eec.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f2eec.dir\\Debug\\cmTC_f2eec.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_73d3f.dir\\Debug\\\\" /Fd"cmTC_73d3f.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_f2eec.dir\\Debug\\\\" /Fd"cmTC_f2eec.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_73d3f.dir\\Debug\\\\" /Fd"cmTC_73d3f.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_f2eec.dir\\Debug\\\\" /Fd"cmTC_f2eec.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vn64fb\\Debug\\cmTC_73d3f.exe" /INCREMENTAL /ILK:"cmTC_73d3f.dir\\Debug\\cmTC_73d3f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-vn64fb/Debug/cmTC_73d3f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-vn64fb/Debug/cmTC_73d3f.lib" /MACHINE:X64  /machine:x64 cmTC_73d3f.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_73d3f.vcxproj -> C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vn64fb\\Debug\\cmTC_73d3f.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yo6ibm\\Debug\\cmTC_f2eec.exe" /INCREMENTAL /ILK:"cmTC_f2eec.dir\\Debug\\cmTC_f2eec.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-yo6ibm/Debug/cmTC_f2eec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-yo6ibm/Debug/cmTC_f2eec.lib" /MACHINE:X64  /machine:x64 cmTC_f2eec.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_f2eec.vcxproj -> C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yo6ibm\\Debug\\cmTC_f2eec.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_73d3f.dir\\Debug\\cmTC_73d3f.tlog\\unsuccessfulbuild".
-          Touching "cmTC_73d3f.dir\\Debug\\cmTC_73d3f.tlog\\cmTC_73d3f.lastbuildstate".
-        Done Building Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vn64fb\\cmTC_73d3f.vcxproj" (default targets).
+          Deleting file "cmTC_f2eec.dir\\Debug\\cmTC_f2eec.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f2eec.dir\\Debug\\cmTC_f2eec.tlog\\cmTC_f2eec.lastbuildstate".
+        Done Building Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yo6ibm\\cmTC_f2eec.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.54
+        Time Elapsed 00:00:00.69
         
       exitCode: 0
   -
@@ -804,8 +867,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-auvbhw"
-      binary: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-auvbhw"
+      source: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-4a2u1n"
+      binary: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-4a2u1n"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -815,39 +878,39 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-auvbhw'
+        Change Dir: 'C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-4a2u1n'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0f254.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_647f3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.0.5+e22287bf1 for .NET Framework
-        Build started 04/03/2026 09:49:52.
+        Build started 05/03/2026 14:43:50.
         
-        Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-auvbhw\\cmTC_0f254.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4a2u1n\\cmTC_647f3.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-auvbhw\\Debug\\".
-          Creating directory "cmTC_0f254.dir\\Debug\\cmTC_0f254.tlog\\".
+          Creating directory "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4a2u1n\\Debug\\".
+          Creating directory "cmTC_647f3.dir\\Debug\\cmTC_647f3.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_0f254.dir\\Debug\\cmTC_0f254.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_0f254.dir\\Debug\\cmTC_0f254.tlog\\unsuccessfulbuild".
+          Creating "cmTC_647f3.dir\\Debug\\cmTC_647f3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_647f3.dir\\Debug\\cmTC_647f3.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_0f254.dir\\Debug\\\\" /Fd"cmTC_0f254.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-auvbhw\\src.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_647f3.dir\\Debug\\\\" /Fd"cmTC_647f3.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4a2u1n\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_0f254.dir\\Debug\\\\" /Fd"cmTC_0f254.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-auvbhw\\src.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_647f3.dir\\Debug\\\\" /Fd"cmTC_647f3.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4a2u1n\\src.cxx"
           src.cxx
-        C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-auvbhw\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-auvbhw\\cmTC_0f254.vcxproj]
-        Done Building Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-auvbhw\\cmTC_0f254.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4a2u1n\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4a2u1n\\cmTC_647f3.vcxproj]
+        Done Building Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4a2u1n\\cmTC_647f3.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-auvbhw\\cmTC_0f254.vcxproj" (default target) (1) ->
+        "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4a2u1n\\cmTC_647f3.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-auvbhw\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-auvbhw\\cmTC_0f254.vcxproj]
+          C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4a2u1n\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4a2u1n\\cmTC_647f3.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.42
+        Time Elapsed 00:00:00.41
         
       exitCode: 1
   -
@@ -865,8 +928,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-nau8d8"
-      binary: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-nau8d8"
+      source: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-uzfezv"
+      binary: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-uzfezv"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -876,41 +939,41 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-nau8d8'
+        Change Dir: 'C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-uzfezv'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_81565.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7b8bd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.0.5+e22287bf1 for .NET Framework
-        Build started 04/03/2026 09:49:53.
+        Build started 05/03/2026 14:43:51.
         
-        Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nau8d8\\cmTC_81565.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uzfezv\\cmTC_7b8bd.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nau8d8\\Debug\\".
-          Creating directory "cmTC_81565.dir\\Debug\\cmTC_81565.tlog\\".
+          Creating directory "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uzfezv\\Debug\\".
+          Creating directory "cmTC_7b8bd.dir\\Debug\\cmTC_7b8bd.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_81565.dir\\Debug\\cmTC_81565.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_81565.dir\\Debug\\cmTC_81565.tlog\\unsuccessfulbuild".
+          Creating "cmTC_7b8bd.dir\\Debug\\cmTC_7b8bd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7b8bd.dir\\Debug\\cmTC_7b8bd.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_81565.dir\\Debug\\\\" /Fd"cmTC_81565.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nau8d8\\CheckFunctionExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_7b8bd.dir\\Debug\\\\" /Fd"cmTC_7b8bd.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uzfezv\\CheckFunctionExists.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_81565.dir\\Debug\\\\" /Fd"cmTC_81565.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nau8d8\\CheckFunctionExists.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_7b8bd.dir\\Debug\\\\" /Fd"cmTC_7b8bd.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uzfezv\\CheckFunctionExists.cxx"
           CheckFunctionExists.cxx
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nau8d8\\Debug\\cmTC_81565.exe" /INCREMENTAL /ILK:"cmTC_81565.dir\\Debug\\cmTC_81565.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-nau8d8/Debug/cmTC_81565.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-nau8d8/Debug/cmTC_81565.lib" /MACHINE:X64  /machine:x64 cmTC_81565.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nau8d8\\cmTC_81565.vcxproj]
-        Done Building Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nau8d8\\cmTC_81565.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uzfezv\\Debug\\cmTC_7b8bd.exe" /INCREMENTAL /ILK:"cmTC_7b8bd.dir\\Debug\\cmTC_7b8bd.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-uzfezv/Debug/cmTC_7b8bd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-uzfezv/Debug/cmTC_7b8bd.lib" /MACHINE:X64  /machine:x64 cmTC_7b8bd.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uzfezv\\cmTC_7b8bd.vcxproj]
+        Done Building Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uzfezv\\cmTC_7b8bd.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nau8d8\\cmTC_81565.vcxproj" (default target) (1) ->
+        "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uzfezv\\cmTC_7b8bd.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nau8d8\\cmTC_81565.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uzfezv\\cmTC_7b8bd.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.43
+        Time Elapsed 00:00:00.56
         
       exitCode: 1
   -
@@ -928,8 +991,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-qo5pim"
-      binary: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-qo5pim"
+      source: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-g15ghp"
+      binary: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-g15ghp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -939,41 +1002,41 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-qo5pim'
+        Change Dir: 'C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-g15ghp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_59f8f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4495d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.0.5+e22287bf1 for .NET Framework
-        Build started 04/03/2026 09:49:54.
+        Build started 05/03/2026 14:43:52.
         
-        Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qo5pim\\cmTC_59f8f.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g15ghp\\cmTC_4495d.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qo5pim\\Debug\\".
-          Creating directory "cmTC_59f8f.dir\\Debug\\cmTC_59f8f.tlog\\".
+          Creating directory "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g15ghp\\Debug\\".
+          Creating directory "cmTC_4495d.dir\\Debug\\cmTC_4495d.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_59f8f.dir\\Debug\\cmTC_59f8f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_59f8f.dir\\Debug\\cmTC_59f8f.tlog\\unsuccessfulbuild".
+          Creating "cmTC_4495d.dir\\Debug\\cmTC_4495d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4495d.dir\\Debug\\cmTC_4495d.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_59f8f.dir\\Debug\\\\" /Fd"cmTC_59f8f.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qo5pim\\CheckFunctionExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_4495d.dir\\Debug\\\\" /Fd"cmTC_4495d.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g15ghp\\CheckFunctionExists.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_59f8f.dir\\Debug\\\\" /Fd"cmTC_59f8f.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qo5pim\\CheckFunctionExists.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_4495d.dir\\Debug\\\\" /Fd"cmTC_4495d.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g15ghp\\CheckFunctionExists.cxx"
           CheckFunctionExists.cxx
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qo5pim\\Debug\\cmTC_59f8f.exe" /INCREMENTAL /ILK:"cmTC_59f8f.dir\\Debug\\cmTC_59f8f.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-qo5pim/Debug/cmTC_59f8f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-qo5pim/Debug/cmTC_59f8f.lib" /MACHINE:X64  /machine:x64 cmTC_59f8f.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qo5pim\\cmTC_59f8f.vcxproj]
-        Done Building Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qo5pim\\cmTC_59f8f.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g15ghp\\Debug\\cmTC_4495d.exe" /INCREMENTAL /ILK:"cmTC_4495d.dir\\Debug\\cmTC_4495d.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-g15ghp/Debug/cmTC_4495d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-g15ghp/Debug/cmTC_4495d.lib" /MACHINE:X64  /machine:x64 cmTC_4495d.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g15ghp\\cmTC_4495d.vcxproj]
+        Done Building Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g15ghp\\cmTC_4495d.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qo5pim\\cmTC_59f8f.vcxproj" (default target) (1) ->
+        "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g15ghp\\cmTC_4495d.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qo5pim\\cmTC_59f8f.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g15ghp\\cmTC_4495d.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.44
+        Time Elapsed 00:00:00.56
         
       exitCode: 1
   -
@@ -992,8 +1055,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-we26wq"
-      binary: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-we26wq"
+      source: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-yrjtg3"
+      binary: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-yrjtg3"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1003,39 +1066,39 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-we26wq'
+        Change Dir: 'C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-yrjtg3'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3ff0c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5f08b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.0.5+e22287bf1 for .NET Framework
-        Build started 04/03/2026 09:49:55.
+        Build started 05/03/2026 14:43:53.
         
-        Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-we26wq\\cmTC_3ff0c.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yrjtg3\\cmTC_5f08b.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-we26wq\\Debug\\".
-          Creating directory "cmTC_3ff0c.dir\\Debug\\cmTC_3ff0c.tlog\\".
+          Creating directory "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yrjtg3\\Debug\\".
+          Creating directory "cmTC_5f08b.dir\\Debug\\cmTC_5f08b.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_3ff0c.dir\\Debug\\cmTC_3ff0c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_3ff0c.dir\\Debug\\cmTC_3ff0c.tlog\\unsuccessfulbuild".
+          Creating "cmTC_5f08b.dir\\Debug\\cmTC_5f08b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5f08b.dir\\Debug\\cmTC_5f08b.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_3ff0c.dir\\Debug\\\\" /Fd"cmTC_3ff0c.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-we26wq\\src.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_5f08b.dir\\Debug\\\\" /Fd"cmTC_5f08b.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yrjtg3\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_3ff0c.dir\\Debug\\\\" /Fd"cmTC_3ff0c.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-we26wq\\src.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_5f08b.dir\\Debug\\\\" /Fd"cmTC_5f08b.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yrjtg3\\src.cxx"
           src.cxx
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-we26wq\\Debug\\cmTC_3ff0c.exe" /INCREMENTAL /ILK:"cmTC_3ff0c.dir\\Debug\\cmTC_3ff0c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-we26wq/Debug/cmTC_3ff0c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-we26wq/Debug/cmTC_3ff0c.lib" /MACHINE:X64  /machine:x64 cmTC_3ff0c.dir\\Debug\\src.obj
-          cmTC_3ff0c.vcxproj -> C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-we26wq\\Debug\\cmTC_3ff0c.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yrjtg3\\Debug\\cmTC_5f08b.exe" /INCREMENTAL /ILK:"cmTC_5f08b.dir\\Debug\\cmTC_5f08b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-yrjtg3/Debug/cmTC_5f08b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/CMakeScratch/TryCompile-yrjtg3/Debug/cmTC_5f08b.lib" /MACHINE:X64  /machine:x64 cmTC_5f08b.dir\\Debug\\src.obj
+          cmTC_5f08b.vcxproj -> C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yrjtg3\\Debug\\cmTC_5f08b.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_3ff0c.dir\\Debug\\cmTC_3ff0c.tlog\\unsuccessfulbuild".
-          Touching "cmTC_3ff0c.dir\\Debug\\cmTC_3ff0c.tlog\\cmTC_3ff0c.lastbuildstate".
-        Done Building Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-we26wq\\cmTC_3ff0c.vcxproj" (default targets).
+          Deleting file "cmTC_5f08b.dir\\Debug\\cmTC_5f08b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_5f08b.dir\\Debug\\cmTC_5f08b.tlog\\cmTC_5f08b.lastbuildstate".
+        Done Building Project "C:\\Users\\asala\\2025_20694928\\Worksheet6\\VRBaseStation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yrjtg3\\cmTC_5f08b.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.63
+        Time Elapsed 00:00:00.77
         
       exitCode: 0
   -
@@ -1088,6 +1151,78 @@ events:
         reason: "no_exist"
       -
         path: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework/v4.0.30319/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework/v4.0.30319/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/qt6coretools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -1216,6 +1351,17 @@ events:
       version: "6.10.2"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
         - "C:\\Python27\\"
         - "C:\\Python27\\Scripts"
         - "C:\\WINDOWS\\system32"
@@ -1231,6 +1377,8 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Users\\asala\\Downloads\\openvr-master\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\asala\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\asala\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
@@ -1308,6 +1456,17 @@ events:
       version: "6.10.2"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
         - "C:\\Python27\\"
         - "C:\\Python27\\Scripts"
         - "C:\\WINDOWS\\system32"
@@ -1323,6 +1482,8 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Users\\asala\\Downloads\\openvr-master\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\asala\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\asala\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
@@ -1355,6 +1516,16 @@ events:
       - "windeployqt"
     candidate_directories:
       - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/"
       - "C:/Python27/"
       - "C:/Python27/Scripts/"
       - "C:/Windows/System32/"
@@ -1369,6 +1540,8 @@ events:
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/doxygen/bin/"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/"
+      - "C:/Program Files (x86)/VTK/bin/"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/asala/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/"
@@ -1389,6 +1562,17 @@ events:
     found: "C:/Qt/6.10.2/msvc2022_64/bin/windeployqt.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
         - "C:\\Python27\\"
         - "C:\\Python27\\Scripts"
         - "C:\\WINDOWS\\system32"
@@ -1404,6 +1588,8 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Users\\asala\\Downloads\\openvr-master\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\asala\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\asala\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
@@ -1491,6 +1677,17 @@ events:
       version: "6.10.2"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
         - "C:\\Python27\\"
         - "C:\\Python27\\Scripts"
         - "C:\\WINDOWS\\system32"
@@ -1506,6 +1703,8 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Users\\asala\\Downloads\\openvr-master\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\asala\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\asala\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
@@ -1568,6 +1767,78 @@ events:
         reason: "no_exist"
       -
         path: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework/v4.0.30319/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework/v4.0.30319/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/qt6guitools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -1696,6 +1967,17 @@ events:
       version: "6.10.2"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
         - "C:\\Python27\\"
         - "C:\\Python27\\Scripts"
         - "C:\\WINDOWS\\system32"
@@ -1711,6 +1993,8 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Users\\asala\\Downloads\\openvr-master\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\asala\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\asala\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
@@ -1770,6 +2054,78 @@ events:
         reason: "no_exist"
       -
         path: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework/v4.0.30319/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework/v4.0.30319/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/qt6widgetstools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -1898,6 +2254,17 @@ events:
       version: "6.10.2"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
         - "C:\\Python27\\"
         - "C:\\Python27\\Scripts"
         - "C:\\WINDOWS\\system32"
@@ -1913,6 +2280,8 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Users\\asala\\Downloads\\openvr-master\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\asala\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\asala\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
@@ -1952,6 +2321,26 @@ events:
       - "vulkan/vulkan.h"
     candidate_directories:
       - "/include/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/atlmfc/include/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Auxiliary/VS/include/"
+      - "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Auxiliary/VS/UnitTest/include/"
+      - "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/um/"
+      - "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/shared/"
+      - "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/winrt/"
+      - "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/cppwinrt/"
+      - "C:/Users/asala/2025_20694928/Worksheet7/Exercise 3/VRBaseStation/build/Include/um/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/"
       - "C:/Python27/"
       - "C:/Python27/Scripts/"
       - "C:/Windows/System32/"
@@ -1967,6 +2356,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/doxygen/bin/"
       - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/"
+      - "C:/Program Files (x86)/VTK/bin/"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/asala/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/"
@@ -1980,6 +2371,26 @@ events:
       - "C:/Program Files (x86)/VRBaseStation/"
     searched_directories:
       - "/include/vulkan/vulkan.h"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/include/vulkan/vulkan.h"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/atlmfc/include/vulkan/vulkan.h"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Auxiliary/VS/include/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/vulkan/vulkan.h"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Auxiliary/VS/UnitTest/include/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/um/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/shared/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/winrt/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/cppwinrt/vulkan/vulkan.h"
+      - "C:/Users/asala/2025_20694928/Worksheet7/Exercise 3/VRBaseStation/build/Include/um/vulkan/vulkan.h"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/vulkan/vulkan.h"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/vulkan/vulkan.h"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/HTML Help Workshop/vulkan/vulkan.h"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/vulkan/vulkan.h"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/vulkan/vulkan.h"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/vulkan/vulkan.h"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/vulkan/vulkan.h"
       - "C:/Python27/vulkan/vulkan.h"
       - "C:/Python27/Scripts/vulkan/vulkan.h"
       - "C:/Windows/System32/vulkan/vulkan.h"
@@ -1995,6 +2406,8 @@ events:
       - "C:/Program Files/CMake/bin/vulkan/vulkan.h"
       - "C:/Program Files/doxygen/bin/vulkan/vulkan.h"
       - "C:/Qt/6.10.2/msvc2022_64/bin/vulkan/vulkan.h"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/VTK/bin/vulkan/vulkan.h"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/vulkan/vulkan.h"
       - "C:/Users/asala/AppData/Local/Programs/Microsoft VS Code/bin/vulkan/vulkan.h"
       - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/vulkan/vulkan.h"
@@ -2009,6 +2422,17 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
         - "C:\\Python27\\"
         - "C:\\Python27\\Scripts"
         - "C:\\WINDOWS\\system32"
@@ -2024,6 +2448,8 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Users\\asala\\Downloads\\openvr-master\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\asala\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\asala\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
@@ -2033,6 +2459,17 @@ events:
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/VRBaseStation"
+      ENV{INCLUDE}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\include"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\atlmfc\\include"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Auxiliary\\VS\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\shared"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\cppwinrt"
+        - "Include\\um"
   -
     kind: "find-v1"
     backtrace:
@@ -2064,6 +2501,23 @@ events:
     candidate_directories:
       - "/lib/"
       - "/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/lib/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/atlmfc/lib/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Auxiliary/VS/lib/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.26100.0/ucrt/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Auxiliary/VS/UnitTest/lib/"
+      - "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.26100.0/um/x64/"
+      - "C:/Users/asala/2025_20694928/Worksheet7/Exercise 3/VRBaseStation/build/lib/um/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/"
       - "C:/Python27/"
       - "C:/Python27/Scripts/"
       - "C:/Windows/System32/"
@@ -2079,6 +2533,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/doxygen/bin/"
       - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/"
+      - "C:/Program Files (x86)/VTK/bin/"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/asala/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/"
@@ -2094,6 +2550,23 @@ events:
     searched_directories:
       - "/lib/"
       - "/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/lib/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/atlmfc/lib/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Auxiliary/VS/lib/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.26100.0/ucrt/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Auxiliary/VS/UnitTest/lib/"
+      - "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.26100.0/um/x64/"
+      - "C:/Users/asala/2025_20694928/Worksheet7/Exercise 3/VRBaseStation/build/lib/um/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/"
       - "C:/Python27/"
       - "C:/Python27/Scripts/"
       - "C:/Windows/System32/"
@@ -2109,6 +2582,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/doxygen/bin/"
       - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/"
+      - "C:/Program Files (x86)/VTK/bin/"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/asala/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/"
@@ -2124,6 +2599,17 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
         - "C:\\Python27\\"
         - "C:\\Python27\\Scripts"
         - "C:\\WINDOWS\\system32"
@@ -2139,6 +2625,8 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Users\\asala\\Downloads\\openvr-master\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\asala\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\asala\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
@@ -2152,6 +2640,14 @@ events:
         - "C:/Program Files (x86)/VRBaseStation/bin"
         - "C:/Program Files/CMake/bin"
         - "/bin"
+      ENV{LIB}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\lib\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\atlmfc\\lib\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Auxiliary\\VS\\lib\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.26100.0\\ucrt\\x64"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Auxiliary\\VS\\UnitTest\\lib"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.26100.0\\um\\x64"
+        - "lib\\um\\x64"
   -
     kind: "find-v1"
     backtrace:
@@ -2182,6 +2678,16 @@ events:
       - "glslc"
     candidate_directories:
       - "/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/"
       - "C:/Python27/"
       - "C:/Python27/Scripts/"
       - "C:/Windows/System32/"
@@ -2197,6 +2703,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/doxygen/bin/"
       - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/"
+      - "C:/Program Files (x86)/VTK/bin/"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/asala/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/"
@@ -2216,6 +2724,36 @@ events:
       - "/bin/glslc.com"
       - "/bin/glslc.exe"
       - "/bin/glslc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/glslc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/glslc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/glslc"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/glslc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/glslc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/glslc"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/glslc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/glslc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/glslc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/glslc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/glslc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/glslc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/glslc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/glslc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/glslc"
+      - "C:/Program Files (x86)/HTML Help Workshop/glslc.com"
+      - "C:/Program Files (x86)/HTML Help Workshop/glslc.exe"
+      - "C:/Program Files (x86)/HTML Help Workshop/glslc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/glslc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/glslc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/glslc"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/glslc.com"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/glslc.exe"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/glslc"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/glslc.com"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/glslc.exe"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/glslc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/glslc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/glslc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/glslc"
       - "C:/Python27/glslc.com"
       - "C:/Python27/glslc.exe"
       - "C:/Python27/glslc"
@@ -2261,6 +2799,12 @@ events:
       - "C:/Qt/6.10.2/msvc2022_64/bin/glslc.com"
       - "C:/Qt/6.10.2/msvc2022_64/bin/glslc.exe"
       - "C:/Qt/6.10.2/msvc2022_64/bin/glslc"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/glslc.com"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/glslc.exe"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/glslc"
+      - "C:/Program Files (x86)/VTK/bin/glslc.com"
+      - "C:/Program Files (x86)/VTK/bin/glslc.exe"
+      - "C:/Program Files (x86)/VTK/bin/glslc"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/glslc.com"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/glslc.exe"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/glslc"
@@ -2309,6 +2853,17 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
         - "C:\\Python27\\"
         - "C:\\Python27\\Scripts"
         - "C:\\WINDOWS\\system32"
@@ -2324,6 +2879,8 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Users\\asala\\Downloads\\openvr-master\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\asala\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\asala\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
@@ -2363,6 +2920,16 @@ events:
       - "glslangValidator"
     candidate_directories:
       - "/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/"
+      - "C:/Program Files (x86)/HTML Help Workshop/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/"
       - "C:/Python27/"
       - "C:/Python27/Scripts/"
       - "C:/Windows/System32/"
@@ -2378,6 +2945,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/doxygen/bin/"
       - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/"
+      - "C:/Program Files (x86)/VTK/bin/"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/asala/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/intelFPGA/18.1/modelsim_ase/win32aloem/"
@@ -2397,6 +2966,36 @@ events:
       - "/bin/glslangValidator.com"
       - "/bin/glslangValidator.exe"
       - "/bin/glslangValidator"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/glslangValidator.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/glslangValidator.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/glslangValidator"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/glslangValidator.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/glslangValidator.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/glslangValidator"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/glslangValidator.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/glslangValidator.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/glslangValidator"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/glslangValidator.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/glslangValidator.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/glslangValidator"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/glslangValidator.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/glslangValidator.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/glslangValidator"
+      - "C:/Program Files (x86)/HTML Help Workshop/glslangValidator.com"
+      - "C:/Program Files (x86)/HTML Help Workshop/glslangValidator.exe"
+      - "C:/Program Files (x86)/HTML Help Workshop/glslangValidator"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/glslangValidator.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/glslangValidator.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/glslangValidator"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/glslangValidator.com"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/glslangValidator.exe"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/glslangValidator"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/glslangValidator.com"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/glslangValidator.exe"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/glslangValidator"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/glslangValidator.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/glslangValidator.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/glslangValidator"
       - "C:/Python27/glslangValidator.com"
       - "C:/Python27/glslangValidator.exe"
       - "C:/Python27/glslangValidator"
@@ -2442,6 +3041,12 @@ events:
       - "C:/Qt/6.10.2/msvc2022_64/bin/glslangValidator.com"
       - "C:/Qt/6.10.2/msvc2022_64/bin/glslangValidator.exe"
       - "C:/Qt/6.10.2/msvc2022_64/bin/glslangValidator"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/glslangValidator.com"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/glslangValidator.exe"
+      - "C:/Users/asala/Downloads/openvr-master/bin/win64/glslangValidator"
+      - "C:/Program Files (x86)/VTK/bin/glslangValidator.com"
+      - "C:/Program Files (x86)/VTK/bin/glslangValidator.exe"
+      - "C:/Program Files (x86)/VTK/bin/glslangValidator"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/glslangValidator.com"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/glslangValidator.exe"
       - "C:/Users/asala/AppData/Local/Microsoft/WindowsApps/glslangValidator"
@@ -2490,6 +3095,17 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
         - "C:\\Python27\\"
         - "C:\\Python27\\Scripts"
         - "C:\\WINDOWS\\system32"
@@ -2505,6 +3121,8 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Users\\asala\\Downloads\\openvr-master\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\asala\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\asala\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
@@ -2598,6 +3216,17 @@ events:
       version: "6.10.2"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
         - "C:\\Python27\\"
         - "C:\\Python27\\Scripts"
         - "C:\\WINDOWS\\system32"
@@ -2613,6 +3242,8 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Users\\asala\\Downloads\\openvr-master\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\asala\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\asala\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
@@ -2700,6 +3331,17 @@ events:
       version: "6.10.2"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
         - "C:\\Python27\\"
         - "C:\\Python27\\Scripts"
         - "C:\\WINDOWS\\system32"
@@ -2715,6 +3357,8 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Users\\asala\\Downloads\\openvr-master\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\asala\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\asala\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
@@ -2776,6 +3420,78 @@ events:
         reason: "no_exist"
       -
         path: "C:/Users/asala/2025_20694928/Worksheet6/VRBaseStation/build/CMakeFiles/pkgRedirects/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/Tools/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework/v4.0.30319/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework/v4.0.30319/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/qt6-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -4608,6 +5324,17 @@ events:
       version: "6.10.2"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\ide"
+        - "C:\\Program Files (x86)\\HTML Help Workshop"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin"
+        - "C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\"
         - "C:\\Python27\\"
         - "C:\\Python27\\Scripts"
         - "C:\\WINDOWS\\system32"
@@ -4623,6 +5350,8 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\doxygen\\bin"
         - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Users\\asala\\Downloads\\openvr-master\\bin\\win64"
+        - "C:\\Program Files (x86)\\VTK\\bin"
         - "C:\\Users\\asala\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\asala\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\intelFPGA\\18.1\\modelsim_ase\\win32aloem"
